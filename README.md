@@ -12,7 +12,7 @@ Juan Fernandez Diaz
 
 ## 🚀 Demo
 
-Visit the website:  [Comfy Store](https://my-mini-store.netlify.app)
+Visit the website:&nbsp; [Comfy Store](https://my-mini-store.netlify.app)
 
 ## 💻 Built with
 
