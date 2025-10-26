@@ -21,8 +21,7 @@ Visit the template website:  [miniture.novaworks.net](https://miniture.novaworks
   <img src="https://img.icons8.com/color/48/000000/css3.png"/>
   <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" alt="javascript"/>
   <img src="https://img.icons8.com/color/48/typescript.png" alt="typescript"/>
-  <img width="48" height="48" src="https://img.icons8.com/color/48/react-native.png" alt="react-native"/>
-  <img src="https://img.icons8.com/plasticine/52/000000/react.png"/>
+  <img width="44" height="44" src="https://img.icons8.com/color/48/react-native.png" alt="react-native"/>
 </p>
 
 ## ☎ Contact me
