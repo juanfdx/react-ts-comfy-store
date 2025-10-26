@@ -19,9 +19,10 @@ Visit the template website:  [miniture.novaworks.net](https://miniture.novaworks
 <p>
   <img src="https://img.icons8.com/color/47/000000/html-5--v1.png"/>
   <img src="https://img.icons8.com/color/48/000000/css3.png"/>
-  <img src="https://img.icons8.com/color/48/000000/sass.png"/>
   <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" alt="javascript"/>
+  <img width="48" height="48" src="https://img.icons8.com/color/48/typescript.png" alt="typescript"/>
   <img src="https://img.icons8.com/plasticine/52/000000/react.png"/>
+  
 </p>
 
 ## ☎ Contact me
