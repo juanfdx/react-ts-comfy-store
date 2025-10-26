@@ -1,6 +1,6 @@
 ## 🧾 Description
 
-Small mini store ecommerce website using the frontend technologies html, css, tailwind, javascript, typescript and react.js. 
+Small mini shop e-commerce website using HTML, CSS, Tailwind, JavaScript, TypeScript, and React.js frontend technologies.
 
 ## 🧐 Author 
 
@@ -12,7 +12,7 @@ Juan Fernandez Diaz
 
 ## 🚀 Demo
 
-Visit the website:  [mini store](https://my-mini-store.netlify.app)
+Visit the website:  [mini store e-commerce](https://my-mini-store.netlify.app)
 
 ## 💻 Built with
 
