@@ -14,10 +14,10 @@ export default function Hero() {
         </h1>
 
         <p className='mt-8 max-w-xl text-lg leading-8'>
-          Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem
-          cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat
-          aliqua. Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
-          qui lorem cupidatat commodo.
+          When you shop with us, you're not just buying a product, you're 
+          supporting a movement toward mindful consumption and a more sustainable future.
+          <br />
+          Our goal? Great products. Fair prices. Fast service.
         </p>
 
         <Button asChild size='lg' className='mt-10'>
