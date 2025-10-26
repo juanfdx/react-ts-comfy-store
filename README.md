@@ -1,6 +1,6 @@
 ## 🧾 Description
 
-Small mini shop e-commerce website using HTML, CSS, Tailwind, JavaScript, TypeScript, and React.js frontend technologies.
+A fully responsive mini e-commerce website built with modern frontend technologies — HTML, CSS, Tailwind CSS, JavaScript, TypeScript, and React.js. It features a clean interface, dynamic product display, and interactive shopping functionality designed to provide a smooth user experience.
 
 ## 🧐 Author 
 
