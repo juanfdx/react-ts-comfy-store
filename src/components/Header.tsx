@@ -5,10 +5,12 @@ import { useAppDispatch, useAppSelector } from '@/hooks';
 import { logoutUser } from '../features/user/userSlice';
 import { clearCart } from '../features/cart/cartSlice';
 import { useToast } from './ui/use-toast';
+import { useQueryClient } from '@tanstack/react-query';
 
 
 export default function Header() {
 
+  const queryClient = useQueryClient();
   const navigate = useNavigate();
   const dispatch = useAppDispatch();
   const { toast } = useToast();
@@ -16,6 +18,8 @@ export default function Header() {
 
   const handleLogout = () => {
     console.log('logged out');
+    queryClient.removeQueries();
+    
     dispatch(clearCart());
     dispatch(logoutUser());
     toast({description: 'Logged out'});

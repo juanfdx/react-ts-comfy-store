@@ -1,21 +1,8 @@
 import { useAppSelector } from '@/hooks';
+// COMPONENTS
 import { CheckoutForm, SectionTitle, CartTotals } from '@/components';
-import { LoaderFunction, redirect } from 'react-router-dom';
-import { toast } from '@/components/ui/use-toast';
-import { type ReduxStore } from '@/store';
 
 
-//we use loader to restrict this route to authenticated users only
-export const loader = (store: ReduxStore): LoaderFunction => async (): Promise<Response | null> => {
-    const user = store.getState().userState.user;
-
-    if (!user) {
-      toast({ description: 'Please login to continue' });
-      return redirect('/login');
-    }
-
-    return null;
-  };
 
 function Checkout() {
   
@@ -25,6 +12,7 @@ function Checkout() {
     return <SectionTitle text='Your cart is empty' />;
   }
 
+  
   return (
     <>
       <SectionTitle text='Place your order' />
@@ -36,4 +24,5 @@ function Checkout() {
   );
 
 }
+
 export default Checkout;

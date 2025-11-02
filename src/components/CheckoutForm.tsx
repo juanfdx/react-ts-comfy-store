@@ -9,10 +9,7 @@ import { ReduxStore } from '@/store';
 
 export const action = (store: ReduxStore): ActionFunction => async ({ request }): Promise<Response | null> => {
 
-  // const formData = await request.formData();
-  // const data = Object.fromEntries(formData);
 
-  //backend validation gets on charge of the form data validation, but we can do it here if we want
   const formData = await request.formData();
   const name = formData.get('name') as string;
   const address = formData.get('address') as string;

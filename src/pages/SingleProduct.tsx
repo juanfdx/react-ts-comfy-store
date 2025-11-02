@@ -3,28 +3,18 @@ import { useLoaderData } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import {
   CartItem,
-  customFetch,
   formatAsDollars,
   type SingleProductResponse,
 } from '@/utils';
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
 
-import { type LoaderFunction } from 'react-router-dom';
 import { SelectProductAmount, SelectProductColor } from '@/components';
 import { Mode } from '@/components/SelectProductAmount';
 import { useAppDispatch } from '@/hooks';
 import { addItem } from '@/features/cart/cartSlice';
 
 
-//to access id of product in "params" from this route
-export const loader: LoaderFunction = async ({ params }): Promise<SingleProductResponse> => {
-  const response = await customFetch<SingleProductResponse>(
-    `/products/${params.id}`
-  );
-
-  return { ...response.data };
-};
 
 
 export default function SingleProduct() {

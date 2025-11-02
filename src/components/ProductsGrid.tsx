@@ -9,7 +9,8 @@ export default function ProductsGrid() {
   
   return (
     <div className='pt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-3 '>
-      {products.map(product => {
+
+      {products?.map(product => {
         const { title, price, image } = product.attributes;
         const dollarsAmount = formatAsDollars(price);
 
@@ -33,6 +34,7 @@ export default function ProductsGrid() {
           </Link>
         )
       })}
+      
     </div>
   )
 }
